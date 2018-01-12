@@ -1,7 +1,7 @@
 
 Scope:
 
-- EC2 Ubuntu instance running with port 20, 80, 443 open
+- EC2 Ubuntu instance running with port 22, 80, 443 open
 - Configure nginx to only use https and make sure it passes with an A+ on securityheaders.io
 
 
