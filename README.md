@@ -6,7 +6,7 @@ Scope:
 
 Backgroup: 
 
-Initially I needed this because my EC2 instances are on a different account than my route 53 DNS records. What a hassle! Next problem was ssh'ing into ubuntu@neonaluminum.com - oops can't do that since the DNS record isn't updated. And I don't know my *new* IP address off the top of my head. So, I wanted this script to run at instance start, after the network was initialized. This wasn't as easy as I though! But I learned a bunch of new things about bash scripting - bonus!
+Initially I needed this because my EC2 instances are on a different account than my route 53 DNS records. What a hassle! Next problem was ssh'ing into ubuntu@neonaluminum - oops can't do that since the DNS record isn't updated. And I don't know my *new* IP address off the top of my head. So, I wanted this script to run at instance start, after the network was initialized. This wasn't as easy as I though! But I learned a bunch of new things about bash scripting - bonus!
 
 Now, I have updated_route53.v2.sh in the /etc/init.d folder. It runs flawlessly, so far!
 
