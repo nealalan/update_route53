@@ -1,4 +1,4 @@
-## [nealalan.github.io](https://nealalan.github.io)/[update_route_53](https://nealalan.github.io/update_route_53)
+## [nealalan.github.io](https://nealalan.github.io)/[update_route53](https://nealalan.github.io/update_route53)
 
 Scope:
 
